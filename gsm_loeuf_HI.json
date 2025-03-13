@@ -1,0 +1,29 @@
+{
+   "score_data_path": "/Users/tk508/HAIL/Genetics-Gym/data/GSM/gene_scores_loeufs.tsv",
+   "is_gsm" : true, 
+    "score_name_dict" : {
+        "LOEUF_v4": "LOEUF_v4", 
+        "LOEUF-scaled": "LOEUF-scaled", 
+        "LOEUF-AM": "LOEUF-AM", 
+        "LOEUF-AM2": "LOEUF-AM2", 
+        "LOEUF-AM3": "LOEUF-AM3", 
+        "LOEUF_AM4": "LOEUF_AM4", 
+        "LOEUF-SFS": "LOEUF-SFS", 
+        "LOEUF-AM-SFS": "LOEUF-AM-SFS", 
+        "LOEUF-ANC": "LOEUF-ANC", 
+        "LOEUF-AM-ANC": "LOEUF-AM-ANC", 
+        "GeneBayes": "GeneBayes", 
+        "DeepLof": "DeepLof"
+        },
+"score_join_on" : "GENE_ID" ,
+"score_delim" : null,
+"score_is_ht" : false,
+
+"eval_data_path" : "/Users/tk508/HAIL/Genetics-Gym/data/GSM/HI_table.tsv",
+"eval_join_on" : "HI",
+"eval_delim" : null,
+"eval_is_ht" : false,
+
+"plot_title" : "Loeuf Scores",
+"eval_name" : "HI"
+}
